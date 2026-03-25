@@ -1,0 +1,632 @@
+[
+  {
+    "id": "pinot-grigio-ronco-dei-tassi-2022",
+    "wine": "Pinot Grigio",
+    "producer": "Ronco dei Tassi",
+    "vintage": "2022",
+    "country": "Italy",
+    "region": "Friuli",
+    "grape": "Pinot Grigio 100%",
+    "type": "white",
+    "date_tasted": "2026-03-03",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Gold",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium-",
+      "development": "Developing",
+      "characteristics": "Lemon, lemon rind, blossom, bruised apple, hay, yellow apple."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "High",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Light",
+      "flavour_characteristics": null,
+      "finish": "Short"
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "chardonnay-yattarna-2005",
+    "wine": "Yattarna Chardonnay",
+    "producer": "Penfolds",
+    "vintage": "2005",
+    "country": "Australia",
+    "region": null,
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-03",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Cream, butter, vanilla, toast, brioche, popcorn, candied peel, peach, ripe apple."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": null,
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Outstanding",
+      "readiness": "Drink now, can age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "gamay-petits-detour-2023",
+    "wine": "Gamay",
+    "producer": "Petits Detour",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Languedoc",
+    "grape": "Gamay 100%",
+    "type": "red",
+    "date_tasted": "2026-03-03",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, black tea."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium-",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": null,
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": null,
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "cabernet-sauvignon-parker-coonawarra-1999",
+    "wine": "Cabernet Sauvignon",
+    "producer": "Parker",
+    "vintage": "1999",
+    "country": "Australia",
+    "region": "Coonawarra",
+    "grape": "Cabernet Sauvignon 100%",
+    "type": "red",
+    "date_tasted": "2026-03-03",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Garnet",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Pronounced",
+      "development": "Fully developed",
+      "characteristics": "Menthol, cigar box, tobacco, mushroom, savoury, cedar, leather, capsicum, blackcurrant, dried fig, vegetal."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium+",
+      "alcohol": "High",
+      "body": "Full",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": null,
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Outstanding",
+      "readiness": null,
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Described as balanced, long, intense and complex."
+  },
+  {
+    "id": "blind-1-w2-2026-03-10",
+    "wine": null,
+    "producer": null,
+    "vintage": null,
+    "country": null,
+    "region": null,
+    "grape": "Cabernet Sauvignon 100%",
+    "type": "red",
+    "date_tasted": "2026-03-10",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Youthful",
+      "characteristics": "Cherry, strawberry, cassis, chocolate, red currant, black currant."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": "High",
+      "tannin": "Medium",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": null,
+      "flavour_characteristics": null,
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Could age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "blind-2-w2-2026-03-10",
+    "wine": "Cabernet Sauvignon",
+    "producer": "Duckhorn Vineyards",
+    "vintage": "2022",
+    "country": "United States",
+    "region": "Napa Valley",
+    "grape": "Cabernet Sauvignon 100%",
+    "type": "red",
+    "date_tasted": "2026-03-10",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Youthful",
+      "characteristics": "Plums, blueberries, liquorice, cedarwood."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": "High",
+      "tannin": "Medium+",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": null,
+      "flavour_characteristics": "Blackberry, plum, blueberry, liquorice.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Could age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "petit-chablis-w3-2026-03-17",
+    "wine": "Petit Chablis",
+    "producer": null,
+    "vintage": null,
+    "country": "France",
+    "region": "Chablis, Burgundy",
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium-",
+      "development": "Developed",
+      "characteristics": "Dusty, lemon, blossom, ammonia, honey."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": null,
+      "tannin": null,
+      "alcohol": null,
+      "body": null,
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Lemon, lemon curd, pineapple, cashew, rock/flint.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Ready to drink, can age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher. Teacher corrections noted: nose intensity should be Medium+, development should be Youthful, additional aromas include wet stones/mineral; palate flavour characteristics should also include white peach and cream."
+  },
+  {
+    "id": "chablis-1er-cru-w3-2026-03-17",
+    "wine": "Chablis 1er Cru",
+    "producer": null,
+    "vintage": null,
+    "country": "France",
+    "region": "Chablis, Burgundy",
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Lemon, petrichor, popcorn, blossom, honey."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": null,
+      "tannin": null,
+      "alcohol": null,
+      "body": null,
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Lemon curd, popcorn, cashew, pear, bruised apple, lemon.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Ready to drink, could age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher."
+  },
+  {
+    "id": "fiano-skinsy-w3-2026-03-17",
+    "wine": "Fiano",
+    "producer": null,
+    "vintage": null,
+    "country": "Italy",
+    "region": null,
+    "grape": "Fiano 100%",
+    "type": "white",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": null,
+      "characteristics": "Petrichor, formalin/ant, very bruised pear, eucalyptus/ammonia."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": null,
+      "tannin": null,
+      "alcohol": null,
+      "body": null,
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Lemon, eucalyptus, lemongrass, lemon pith, lemon rind, capsicum.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, do not age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher. Skinsy (skin-contact) wine. Noted as partially balanced."
+  },
+  {
+    "id": "gruner-veltliner-anton-bauer-2022",
+    "wine": "Grüner Veltliner",
+    "producer": "Anton Bauer",
+    "vintage": "2022",
+    "country": "Austria",
+    "region": "Wagram",
+    "grape": "Grüner Veltliner 100%",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Fully developed",
+      "characteristics": "Petrol, honey, lanolin, bruised apple."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium-",
+      "flavour_characteristics": "Creamy/lactose, butter, burnt lemon peel, bruised apple.",
+      "finish": "Short"
+    },
+    "conclusions": {
+      "quality": "Poor",
+      "readiness": "Too old",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "gruner-veltliner-weinviertel-2024",
+    "wine": "Grüner Veltliner",
+    "producer": "Weinviertel DAC",
+    "vintage": "2024",
+    "country": "Austria",
+    "region": "Weinviertel",
+    "grape": "Grüner Veltliner 100%",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Youthful",
+      "characteristics": "Blossom, honeysuckle, green apple, lemon pith/peel, white pepper, stones."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Lemon, unripe pineapple, green apple.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "pinot-gris-weinbach-alsace-2021",
+    "wine": "Alsace Pinot Gris",
+    "producer": "Domaine Weinbach",
+    "vintage": "2021",
+    "country": "France",
+    "region": "Alsace",
+    "grape": "Pinot Gris 100%",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Stone fruit, peaches, nectarine, orange blossom, ripe apple, honey, cashew."
+    },
+    "palate": {
+      "sweetness": "Off-dry",
+      "acidity": "Medium",
+      "tannin": null,
+      "alcohol": "High",
+      "body": null,
+      "mousse": null,
+      "flavour_intensity": null,
+      "flavour_characteristics": "Ginger, nashi pear, ripe pear.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, has potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "riesling-speitzer-gg-2019",
+    "wine": "Riesling GG Grosslager",
+    "producer": "Weingut Speitzer",
+    "vintage": "2019",
+    "country": "Germany",
+    "region": "Rheinhessen",
+    "grape": "Riesling 100%",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Honey, rose, lime, blossom, grapefruit, slate, kerosene."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": null,
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, has potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "riesling-schloss-johannisberg-2022",
+    "wine": "Riesling",
+    "producer": "Schloss Johannisberg",
+    "vintage": "2022",
+    "country": "Germany",
+    "region": "Rheingau",
+    "grape": "Riesling 100%",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Lemon, honey, peach, citrus peel, chamomile, ginger."
+    },
+    "palate": {
+      "sweetness": "Medium dry",
+      "acidity": "High",
+      "tannin": null,
+      "alcohol": "Low",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Lemon, honey, peach, citrus peel, chamomile, ginger, slate, kerosene",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, has potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  },
+  {
+    "id": "tokaji-aszu-6-puttonyos-2017",
+    "wine": "Tokaji Aszú 6 Puttonyos",
+    "producer": "Royal Tokaji",
+    "vintage": "2017",
+    "country": "Hungary",
+    "region": "Tokaj",
+    "grape": "Furmint / Hárslevelű blend",
+    "type": "white",
+    "date_tasted": "2026-03-24",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Gold",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Rose, beeswax, honey, candied peel, dried apple, orange."
+    },
+    "palate": {
+      "sweetness": "Sweet",
+      "acidity": "High",
+      "tannin": null,
+      "alcohol": "Low",
+      "body": "Full",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": "Honeycombe, honey, candied peel, dried apple, orange, ginger, saffron.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Outstanding",
+      "readiness": "Drink now, has potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null
+  }
+]
