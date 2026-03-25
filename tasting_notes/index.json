@@ -47,7 +47,7 @@
     "producer": "Penfolds",
     "vintage": "2005",
     "country": "Australia",
-    "region": null,
+    "region": "Adelaide Hills",
     "grape": "Chardonnay 100%",
     "type": "white",
     "date_tasted": "2026-03-03",
@@ -376,6 +376,89 @@
       "vintage": null
     },
     "notes": "Tasted with Rahul as teacher. Skinsy (skin-contact) wine. Noted as partially balanced."
+  },
+  {
+    "id": "unknown-chianti",
+    "wine": "Chianti",
+    "producer": null,
+    "vintage": null,
+    "country": "Italy",
+    "region": "Chianti DOCG",
+    "type": "red",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, black tea."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium-",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": null,
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": null,
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher."
+  },
+  {
+    "id": "unknown-chianti-reserva",
+    "wine": "Chianti Riserva",
+    "producer": null,
+    "vintage": null,
+    "country": "Italy",
+    "region": "Chianti DOCG",
+    "grape": "Sangiovese 100%",
+    "type": "red",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, black tea."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium-",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": null,
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": null,
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher."
   },
   {
     "id": "gruner-veltliner-anton-bauer-2022",
