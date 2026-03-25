@@ -39,7 +39,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": "https://indigenousselections.com/wp-content/uploads/2022/10/8_sellsheet_RDTPGI_Ronco-dei-Tassi-Pinot-Grigio-Sell-Sheet.pdf"
   },
   {
     "id": "chardonnay-yattarna-2005",
@@ -81,7 +82,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": "https://www.penfolds.com/on/demandware.static/-/Sites-twe-master-catalog/default/dw418da274/Penfolds_The_Penfolds_Collection_Yattarna_2005.pdf?srsltid=AfmBOoqLbVaJfM3JJ-DzxyD3fYhxjHMML2y-fW8dahqMLk4su10FONKF"
   },
   {
     "id": "gamay-petits-detour-2023",
@@ -123,7 +125,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "cabernet-sauvignon-parker-coonawarra-1999",
@@ -165,15 +168,16 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": "Described as balanced, long, intense and complex."
+    "notes": "Described as balanced, long, intense and complex.",
+    "tech_sheet": null
   },
   {
     "id": "blind-1-w2-2026-03-10",
-    "wine": null,
-    "producer": null,
-    "vintage": null,
-    "country": null,
-    "region": null,
+    "wine": "Cabernet Sauvignon",
+    "producer": "Nikola Estate",
+    "vintage": "2021",
+    "country": "Australia",
+    "region": "Great Southern",
     "grape": "Cabernet Sauvignon 100%",
     "type": "red",
     "date_tasted": "2026-03-10",
@@ -187,27 +191,28 @@
       "condition": null,
       "intensity": "Medium",
       "development": "Youthful",
-      "characteristics": "Cherry, strawberry, cassis, chocolate, red currant, black currant."
+      "characteristics": "Cherry, strawberry, cassis, chocolate, red currant, black currant, capsicum, eucalyptus."
     },
     "palate": {
       "sweetness": null,
-      "acidity": "High",
+      "acidity": "Medium+",
       "tannin": "Medium",
-      "alcohol": "High",
+      "alcohol": "Medium",
       "body": "Medium+",
       "mousse": null,
-      "flavour_intensity": null,
-      "flavour_characteristics": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Cherry, strawberry, cassis, chocolate, red currant, black currant, capsicum.",
       "finish": "Medium+"
     },
     "conclusions": {
       "quality": "Good",
-      "readiness": "Could age",
+      "readiness": "Drink now, has potential for ageing",
       "grape_assessment": null,
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "blind-2-w2-2026-03-10",
@@ -216,7 +221,7 @@
     "vintage": "2022",
     "country": "United States",
     "region": "Napa Valley",
-    "grape": "Cabernet Sauvignon 100%",
+    "grape": "Cabernet Sauvignon 94%, Merlot 5%, Cabernet Franc 1%",
     "type": "red",
     "date_tasted": "2026-03-10",
     "appearance": {
@@ -249,7 +254,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": "https://www.duckhornportfolio.com/assets/images/contentblock/files/2022DVNVCS.pdf"
   },
   {
     "id": "petit-chablis-w3-2026-03-17",
@@ -291,7 +297,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": "Tasted with Rahul as teacher. Teacher corrections noted: nose intensity should be Medium+, development should be Youthful, additional aromas include wet stones/mineral; palate flavour characteristics should also include white peach and cream."
+    "notes": "Tasted with Rahul as teacher. Teacher corrections noted: nose intensity should be Medium+, development should be Youthful, additional aromas include wet stones/mineral; palate flavour characteristics should also include white peach and cream.",
+    "tech_sheet": null
   },
   {
     "id": "chablis-1er-cru-w3-2026-03-17",
@@ -333,7 +340,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": "Tasted with Rahul as teacher."
+    "notes": "Tasted with Rahul as teacher.",
+    "tech_sheet": null
   },
   {
     "id": "fiano-skinsy-w3-2026-03-17",
@@ -375,54 +383,14 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": "Tasted with Rahul as teacher. Skinsy (skin-contact) wine. Noted as partially balanced."
+    "notes": "Tasted with Rahul as teacher. Skinsy (skin-contact) wine. Noted as partially balanced.",
+    "tech_sheet": null
   },
   {
-    "id": "unknown-chianti",
+    "id": "toscolo-chianti-2022",
     "wine": "Chianti",
-    "producer": null,
-    "vintage": null,
-    "country": "Italy",
-    "region": "Chianti DOCG",
-    "type": "red",
-    "date_tasted": "2026-03-17",
-    "appearance": {
-      "clarity": "Clear",
-      "intensity": "Medium",
-      "colour": "Ruby",
-      "other": null
-    },
-    "nose": {
-      "condition": null,
-      "intensity": "Medium",
-      "development": "Developing",
-      "characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, black tea."
-    },
-    "palate": {
-      "sweetness": "Dry",
-      "acidity": "Medium+",
-      "tannin": "Medium-",
-      "alcohol": "Medium",
-      "body": "Medium",
-      "mousse": null,
-      "flavour_intensity": "Medium",
-      "flavour_characteristics": null,
-      "finish": "Medium"
-    },
-    "conclusions": {
-      "quality": "Good",
-      "readiness": null,
-      "grape_assessment": null,
-      "country_region": null,
-      "vintage": null
-    },
-    "notes": "Tasted with Rahul as teacher."
-  },
-  {
-    "id": "unknown-chianti-reserva",
-    "wine": "Chianti Riserva",
-    "producer": null,
-    "vintage": null,
+    "producer": "Toscolo",
+    "vintage": "2022",
     "country": "Italy",
     "region": "Chianti DOCG",
     "grape": "Sangiovese 100%",
@@ -452,13 +420,57 @@
       "finish": "Medium"
     },
     "conclusions": {
-      "quality": "Good",
-      "readiness": null,
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for ageing",
       "grape_assessment": null,
       "country_region": null,
       "vintage": null
     },
-    "notes": "Tasted with Rahul as teacher."
+    "notes": "Tasted with Rahul as teacher.",
+    "tech_sheet": null
+  },
+  {
+    "id": "felsina-chianti-riserva-2022",
+    "wine": "Chianti Riserva",
+    "producer": "Felsina",
+    "vintage": "2017",
+    "country": "Italy",
+    "region": "Chianti DOCG",
+    "grape": "Sangiovese 100%",
+    "type": "red",
+    "date_tasted": "2026-03-17",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, black tea."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium+",
+      "alcohol": "Medium",
+      "body": "Full",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Strawberry, cherry, blackcurrant, black cherry, red cherry, anise, iron",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Very Good",
+      "readiness": "Drink now, potential for ageing",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Tasted with Rahul as teacher.",
+    "tech_sheet": "https://www.felsina.it/en/prodotti/berardenga-chianti-classico-riserva-en/"
   },
   {
     "id": "gruner-veltliner-anton-bauer-2022",
@@ -500,12 +512,13 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "gruner-veltliner-weinviertel-2024",
     "wine": "Grüner Veltliner",
-    "producer": "Weinviertel DAC",
+    "producer": "Falkenstein ",
     "vintage": "2024",
     "country": "Austria",
     "region": "Weinviertel",
@@ -542,7 +555,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "pinot-gris-weinbach-alsace-2021",
@@ -584,7 +598,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "riesling-speitzer-gg-2019",
@@ -626,7 +641,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "riesling-schloss-johannisberg-2022",
@@ -668,7 +684,8 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   },
   {
     "id": "tokaji-aszu-6-puttonyos-2017",
@@ -710,6 +727,7 @@
       "country_region": null,
       "vintage": null
     },
-    "notes": null
+    "notes": null,
+    "tech_sheet": null
   }
 ]

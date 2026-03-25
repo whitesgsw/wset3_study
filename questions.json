@@ -7,9 +7,44 @@
         "hint": "Range 1 LO1"
       },
       {
+        "q": "What is the temperature of a 'cool' climate in viticulture?",
+        "a": "A cool climate is <=16.5 °C mean growing season temperature (April–October in northern hemisphere)",
+        "hint": "Climate classification"
+      },
+      {
+        "q": "What is the temperature of a 'moderate' climate in viticulture?",
+        "a": "A moderate climate is 16.5-18.5 °C mean growing season temperature (April–October in northern hemisphere)",
+        "hint": "Climate classification"
+      },
+      {
+        "q": "What is the temperature of a 'warm' climate in viticulture?",
+        "a": "A warm climate is 18.5-21 °C mean growing season temperature (April–October in northern hemisphere)",
+        "hint": "Climate classification"
+      },
+      {
+        "q": "What is the temperature of a 'hot' climate in viticulture?",
+        "a": "A hot climate is >21 °C mean growing season temperature (April–October in northern hemisphere)",
+        "hint": "Climate classification"
+      },
+      {
         "q": "What is véraison?",
         "a": "The point mid-season when grapes change colour and begin to ripen — red grapes turn purple, whites become translucent. Sugar accumulation accelerates and acidity begins to fall.",
         "hint": "Vine growth cycle"
+      },
+      {
+        "q":"What is a 'Continental' climate and how does it affect viticulture?",
+        "a": "A continental climate is characterized by large temperature variations between the hottest and coolest months (high continentality). Short summers with large temperature drops in Autumn. At risk of spring frosts. Low temperatures during growing can effect flowering, fruitset and veraison. Suited to varieties that bud late and ripen early. Dry summers may need irrigating if summer temperatures are high",
+        "hint": "Climate types"
+      },
+      {
+        "q":"What is a 'Maritime' climate and how does it affect viticulture?",
+        "a": "A maritime climate is characterized by cool to moderate temperatures and low variation between the hottest and coolest months (low continentality). Rainfall is evenly spread across the year which moderates temperatures. Temperature is warm enough for grapes to ripen into autumn. Rainfall in spring or summer can damage flowering, fruitset or quality of grapes at harvest.",
+        "hint": "Climate types"
+      },
+      {
+        "q":"What is a 'Mediterranean' climate and how does it affect viticulture?",
+        "a": "A Mediterranean climate is characterized by low variation between the hottest and coolest months (low continentality). Summers tend to be warm and dry. Found throughout the Mediterranean basin, as well as parts of California, Chile, South Africa and Australia. The dry summer reduces disease pressure but may require irrigation. The warmth allows a wide range of varieties to ripen fully.",
+        "hint": "Climate types"
       },
       {
         "q": "How does altitude affect wine style?",
@@ -185,6 +220,89 @@
         "hint": "USA — law"
       }
     ],
+    "Regional Influences - Alsace": [
+      {
+        "q": "What are the key characteristics of Alsace's climate and how do they influence wine style?",
+        "a": "Alsace has a cool continental climate with a rain shadow from the Vosges mountains, resulting in low rainfall and abundant sunshine. This allows grapes to ripen fully while retaining high acidity, producing fresh, aromatic wines.",
+        "hint": "LO5 — natural factors"
+      },
+      {
+        "q": "What are the main grape varieties of Alsace and their typical flavour profiles?",
+        "a": "Riesling: high acidity, citrus, stone fruit, petrol notes. Gewürztraminer: low acidity, lychee, rose, spice. Pinot Gris: medium acidity, ripe pear, honey, ginger. Muscat: pronounced grapey aroma, floral notes.",
+        "hint": "LO5 — natural factors"
+      },
+      {
+        "q": "How does the Vendange Tardive designation affect Alsace wines?",
+        "a": "Vendange Tardive (VT) indicates late-harvest grapes with higher sugar levels. These wines are richer and sweeter than standard Alsace wines, often with botrytis influence adding complexity.",
+        "hint": "LO5 — law"
+      },
+      {
+        "q": "How does the Selection de Grains Nobles designation affect Alsace wines?",
+        "a": "Selection de Grains Nobles (SGN) indicates grapes affected by botrytis (noble rot) with very high sugar levels. These wines are extremely rich and sweet, often with complex honey and dried fruit notes.",
+        "hint": "LO5 — law"
+      },
+      {
+        "q":"What are the 2 types of Muscat grown in Alsace?",
+        "a":"The two types are Muscat Blanc à Petits Grains (white) and Muscat Ottonel (yellow).",
+        "hint": "LO5 — Alsace"
+      }
+    ],
+    "Regional Influences - Germany": [
+      {
+        "q": "What are the main grape varieties of Germany?",
+        "a": "Riesling (most important), Müller-Thurgau, Silvaner, Spätburgunder (Pinot Noir), Dornfelder, Grauburgunder, weisburgunder.",
+        "hint": "LO5 — Germany"
+      },
+      {
+        "q": "What are the key characteristics of Germany's climate and how do they influence wine style?",
+        "a": "Germany has a cool continental climate with a long growing season. This results in wines with high acidity, lower alcohol, and pronounced fruit character. The cool climate also allows for late harvest styles with concentrated sweetness.",
+        "hint": "LO5 — natural factors"
+      },
+      {
+        "q": "What do the Prädikat levels represent in German wine classification?",
+        "a": "Prädikat levels indicate must weight / sugar content at harvest: Kabinett (lightest), Spätlese, Auslese, Beerenauslese (BA), Eiswein (frozen grapes), Trockenbeerenauslese (TBA — concentrated noble rot). Higher levels = riper, more concentrated, usually sweeter.",
+        "hint": "LO5 — law"
+      },
+      {
+        "q": "What is the VDP classification system in Germany?",
+        "a": "The VDP (Verband Deutscher Prädikatsweingüter) is an association of top German producers. Its classification tiers are: Gutswein (entry level), Ortswein (village level), Erste Lage (single vineyard), and Grosse Lage (grand cru). It emphasizes terroir and quality.",
+        "hint": "LO5 — law"
+      },
+      {
+        "q": "How does the Mosel region's climate and soil influence its Riesling wines?",
+        "a": "The Mosel has a cool climate with steep slate soils that retain heat, allowing Riesling to ripen fully while maintaining high acidity. This produces elegant, mineral-driven wines with pronounced citrus and stone fruit character.",
+        "hint": "LO5 — regional influences"
+      }
+    ],
+    "Regional Influences - Austria": [
+      {
+        "q": "What are the main grape varieties of Austria?",
+        "a": "Grüner Veltliner (most important), Zweigelt, Blaufränkisch, St. Laurent, Riesling, Welschriesling.",
+        "hint": "LO5 — Austria"
+      },
+      {
+        "q": "What are the key characteristics of Austria's climate and how do they influence wine style?",
+        "a": "Austria has a continental climate with warm summers and cold winters. This results in wines with good acidity, moderate alcohol, and pronounced fruit character. The climate also allows for late harvest styles with concentrated sweetness.",
+        "hint": "LO5 — natural factors"
+      }
+    ],
+    "Regional Influences - Hungary": [
+      {
+        "q": "What is the main grape variety used in Tokaji and what are its characteristics?",
+        "a": "Furmint is the primary grape in Tokaji, known for its high acidity, ability to develop noble rot.",
+        "hint": "LO5 — Hungary"
+      },
+      {
+        "q": "What are the 2 differnet styles of Tokaji and how do they differ?",
+        "a": "Tokaji Aszú is made from botrytised grapes, resulting in sweet, complex wines with honey and dried fruit notes. Tokaji Escenzia is made from the free-run juice of botrytised grapes, producing an extremely sweet, viscous wine with intense concentration and ageing potential.",
+        "hint": "LO5 — Hungary"
+      },
+      {
+        "q": "What are the key characteristics of Hungary's climate and how do they influence wine style?",
+        "a": "Hungary has a continental climate with warm summers and cold winters. This results in wines with good acidity, moderate alcohol, and pronounced fruit character. The climate also allows for late harvest styles with concentrated sweetness.",
+        "hint": "LO5 — natural factors"
+      }
+    ],
     "Tasting & SAT": [
       {
         "q": "What structural elements are assessed on the palate in the WSET L3 SAT?",
@@ -235,6 +353,50 @@
         ],
         "a": 1,
         "exp": "Vitis vinifera is the European species responsible for virtually all quality wine production worldwide. American species such as V. labrusca and V. riparia are primarily used as rootstocks."
+      },
+      {
+        "q": "What is the temperature of a 'cool' climate during the growing season in viticulture?",
+        "opts": [
+          "<=16.5 °C",
+          "<=18.5 °C",
+          "18.5-21 °C",
+          ">21 °C"
+        ],
+        "a": 0,
+        "exp": "Cool climate is defined as a mean growing season temperature of 16.5 °C or below (April–October in the northern hemisphere). These regions produce wines with higher acidity, lower alcohol, and more green/citrus fruit character."
+      },
+      {
+        "q": "What is the temperature of a 'moderate' climate during the growing season in viticulture?",
+        "opts": [
+          "<=16.5 °C",
+          "16.5-18.5 °C",
+          "18.5-21 °C",
+          ">21 °C"
+        ],
+        "a": 1,
+        "exp": "Moderate climate is defined as a mean growing season temperature of 16.5 °C to 18.5 °C (April–October in the northern hemisphere). These regions produce wines with balanced acidity, alcohol, and fruit character."
+      },
+      {
+        "q": "What is the temperature of a 'warm' climate during the growing season in viticulture?",
+        "opts": [
+          "<=16.5 °C",
+          "16.5-18.5 °C",
+          "18.5-21 °C",
+          ">21 °C"
+        ],
+        "a": 3,
+        "exp": "Warm climate is defined as a mean growing season temperature of 18.5 °C to 21 °C (April–October in the northern hemisphere). These regions produce wines with lower acidity, higher alcohol, and more tropical fruit character."
+      },
+      {
+        "q": "What is the temperature of a 'hot' climate during the growing season in viticulture?",
+        "opts": [
+          "<=16.5 °C",
+          "16.5-18.5 °C",
+          "18.5-21 °C",
+          ">21 °C"
+        ],
+        "a": 3,
+        "exp": "Hot climate is defined as a mean growing season temperature of 21 °C or above (April–October in the northern hemisphere). These regions produce wines with very low acidity, very high alcohol, and often exhibit cooked or raisined fruit character."
       },
       {
         "q": "During the vine growth cycle, what is véraison?",
@@ -795,6 +957,50 @@
         ],
         "a": 2,
         "exp": "Muscadet is made from Melon de Bourgogne (Melon Blanc) in the western Loire Valley, near Nantes. When labelled 'Muscadet Sèvre et Maine Sur Lie', the wine has been aged on its lees, adding yeasty texture and complexity."
+      },
+      {
+        "q": "Which of the following wine producing regions is clasified as a 'Maritime' climate?",
+        "opts": [
+          "Bordeaux",
+          "Burgundy",
+          "The Loire Valley",
+          "Alsace"
+        ],
+        "a": 0,
+        "exp": "Bordeaux is characterized by a maritime climate, with mild temperatures and consistent rainfall throughout the year."
+      },
+      {
+        "q": "Which of the following wine producing regions is clasified as a 'Mediterranean' climate?",
+        "opts": [
+          "Bordeaux",
+          "Burgundy",
+          "Southern Rhône",
+          "Champagne"
+        ],
+        "a": 2,
+        "exp": "The Southern Rhône is characterized by a Mediterranean climate, with hot, dry summers and mild winters."
+      },
+      {
+        "q": "Which of the following wine producing regions is clasified as a 'Continental' climate?",
+        "opts": [
+          "Bordeaux",
+          "Burgundy",
+          "Southern Rhône",
+          "Provence"
+        ],
+        "a": 1,
+        "exp": "Burgundy is characterized by a continental climate, with warm, dry summers and cold winters."
+      },
+      {
+        "q": "What are the 4 Noble grapes of Alsace?",
+        "opts": [
+          "Riesling, Pinot Blanc, Pinot Noir, Gewurztraminer",
+          "Pinot Noir, Syrah, Grenache, Mourvèdre",
+          "Riesling, Pinot Gris, Gewurztraminer, Muscat",
+          "Chardonnay, Sauvignon Blanc, Pinot Noir, Merlot"
+        ],
+        "a": 2,
+        "exp": "The 4 Noble grapes of Alsace are Riesling, Pinot Gris, Gewurztraminer, and Muscat."
       },
       {
         "q": "Châteauneuf-du-Pape is located in which French wine region?",

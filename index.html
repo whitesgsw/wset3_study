@@ -2254,6 +2254,11 @@ function tnRenderNote(n) {
       <div class="tn-sat-title">Notes</div>
       <div class="tn-notes-box">${n.notes}</div>
     </div>` : ''}
+
+    ${n.tech_sheet ? `<div class="tn-sat-section">
+      <div class="tn-sat-title">Tech sheet</div>
+      <a href="${n.tech_sheet}" target="_blank" rel="noopener noreferrer" style="font-size:13px;color:var(--gold-light);word-break:break-all">${n.tech_sheet}</a>
+    </div>` : ''}
   `;
 }
 </script>
