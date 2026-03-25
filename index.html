@@ -31,6 +31,13 @@
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(201,168,76,0.2); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(201,168,76,0.45); }
+  * { scrollbar-width: thin; scrollbar-color: rgba(201,168,76,0.2) transparent; }
+
   body {
     font-family: 'DM Sans', sans-serif;
     background: var(--bg);
@@ -691,6 +698,40 @@
   .settings-download { background: var(--surface); border: 1px solid var(--border2); border-radius: var(--radius-lg); padding: 1.25rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
   .settings-download-info { font-size: 13px; color: var(--text2); line-height: 1.5; }
   .settings-download-info strong { color: var(--text); display: block; margin-bottom: 2px; }
+
+  /* TASTING NOTES */
+  .tn-layout { display: grid; grid-template-columns: 230px 1fr; min-height: calc(100vh - 60px); }
+  .tn-sidebar { border-right: 1px solid var(--border); padding: 1.5rem 0; position: sticky; top: 60px; height: calc(100vh - 60px); overflow-y: auto; }
+  .tn-sidebar-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); padding: 0 1.25rem 0.75rem; }
+  .tn-wine-item { padding: 0.75rem 1.25rem; cursor: pointer; border-left: 2px solid transparent; transition: all 0.15s; }
+  .tn-wine-item:hover { background: var(--surface2); }
+  .tn-wine-item.active { background: var(--gold-dim); border-left-color: var(--gold); }
+  .tn-wine-name { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 2px; }
+  .tn-wine-meta { font-size: 11px; color: var(--text3); }
+  .tn-type-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; vertical-align: middle; position: relative; top: -1px; }
+  .tn-main { padding: 2rem 2.5rem; max-width: 820px; }
+  .tn-empty { color: var(--text3); font-size: 14px; padding-top: 3rem; }
+  .tn-wine-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+  .tn-wine-title { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 400; color: var(--text); margin-bottom: 4px; }
+  .tn-wine-subtitle { font-size: 13px; color: var(--text2); margin-bottom: 1rem; }
+  .tn-meta-grid { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+  .tn-meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .tn-meta-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text3); }
+  .tn-meta-value { font-size: 13px; color: var(--text); }
+  .tn-sat-section { margin-bottom: 1.75rem; }
+  .tn-sat-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); margin-bottom: 0.875rem; display: flex; align-items: center; gap: 8px; }
+  .tn-sat-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  .tn-fields-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 10px; }
+  .tn-field { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; }
+  .tn-field-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text3); margin-bottom: 4px; }
+  .tn-field-value { font-size: 13px; color: var(--text); font-weight: 500; }
+  .tn-characteristics { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold-dim); border-radius: 0 var(--radius) var(--radius) 0; padding: 12px 14px; font-size: 13px; color: var(--text2); line-height: 1.7; }
+  .tn-notes-box { background: var(--surface2); border-radius: var(--radius); padding: 14px 16px; font-size: 13px; color: var(--text2); line-height: 1.7; font-style: italic; }
+  @media (max-width: 700px) {
+    .tn-layout { grid-template-columns: 1fr; }
+    .tn-sidebar { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+    .tn-main { padding: 1.5rem 1rem; }
+  }
 </style>
 </head>
 <body>
@@ -713,6 +754,7 @@
     <button class="nav-tab" onclick="showPage('flashcards')">Flashcards</button>
     <button class="nav-tab" onclick="showPage('map')">Map game</button>
     <button class="nav-tab" onclick="showPage('quiz')">Quiz</button>
+    <button class="nav-tab" onclick="showPage('tasting')">Tasting Notes</button>
     <button class="nav-tab" onclick="showPage('settings')">Settings</button>
   </div>
 </nav>
@@ -895,6 +937,19 @@
   </div>
 </div>
 
+<!-- TASTING NOTES -->
+<div class="page" id="page-tasting">
+  <div class="tn-layout">
+    <div class="tn-sidebar">
+      <div class="tn-sidebar-title">Wines tasted</div>
+      <div id="tn-wine-list"></div>
+    </div>
+    <div class="tn-main">
+      <div id="tn-content"><p class="tn-empty">Select a wine from the list.</p></div>
+    </div>
+  </div>
+</div>
+
 <!-- SETTINGS -->
 <div class="page" id="page-settings">
   <div class="page-inner">
@@ -963,6 +1018,7 @@ fetch('questions.json')
   .then(data => {
     FC_TOPICS = data.FC_TOPICS;
     QZ_SECTIONS = data.QZ_SECTIONS;
+    MAP_QUESTIONS = data.MAP_QUESTIONS || {};
     fcTopic = Object.keys(FC_TOPICS)[0];
     QZ_SECTION_NAMES = ['Mixed', ...Object.keys(QZ_SECTIONS)];
   });
@@ -973,10 +1029,11 @@ function showPage(id) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('page-' + id).classList.add('active');
   const tabs = document.querySelectorAll('.nav-tab');
-  const order = ['home','flashcards','map','quiz','settings'];
+  const order = ['home','flashcards','map','quiz','tasting','settings'];
   tabs[order.indexOf(id)].classList.add('active');
   if (id === 'flashcards' && !fcInitialised) initFlashcards();
   if (id === 'quiz' && !qzInitialised) initQuiz();
+  if (id === 'tasting' && !tnInitialised) initTasting();
   if (id === 'settings') settingsInit();
   if (id === 'map') {
     if (!mapInitialised) {
@@ -1217,8 +1274,7 @@ const MAP_COUNTRIES = {
   }
 };
 
-const Q_TYPES = ['name_region','grape_to_region','law_to_region'];
-const Q_LABELS = {name_region:'Name that region', grape_to_region:'Match the grape', law_to_region:'Match the quality law'};
+let MAP_QUESTIONS = {}; // loaded from questions.json
 const COLORS = {
   default: { fillColor:'#4a3a28', fillOpacity:0.55, color:'#8a7055', weight:2 },
   target:  { fillColor:'#1a3a5c', fillOpacity:0.75, color:'#4a9fd4', weight:3 },
@@ -1353,28 +1409,17 @@ function mapDraw() {
 
 function mapGenQ() {
   mapStatus = {};
-  const regions = mapGetRegions();
-  const r = regions[Math.floor(Math.random()*regions.length)];
-  const qtype = Q_TYPES[Math.floor(Math.random()*Q_TYPES.length)];
-  let qtext = '', sub = '';
-  if(qtype === 'name_region') {
-    const g = r.grapes[Math.floor(Math.random()*r.grapes.length)];
-    qtext = `Which region is known for ${g}?`;
-    sub = `Country: ${mapCountry}`;
-  } else if(qtype === 'grape_to_region') {
-    const g = r.grapes[Math.floor(Math.random()*r.grapes.length)];
-    qtext = `Click the region in ${mapCountry} where ${g} is a principal grape variety.`;
-    sub = '';
-  } else {
-    const law = r.law.split(',')[0].trim();
-    qtext = `Click the region associated with the classification: "${law}"`;
-    sub = `Country: ${mapCountry}`;
-  }
-  mapCurrent = {targetId: r.id, type: qtype, region: r};
+  const qs = MAP_QUESTIONS[mapCountry] || [];
+  if (!qs.length) return;
+  const q = qs[Math.floor(Math.random() * qs.length)];
+  const region = mapGetRegions().find(r => r.label === q.a);
+  if (!region) return;
+
+  mapCurrent = { targetId: region.id, region, question: q };
   mapAnswered = false;
-  document.getElementById('map-q-type').textContent = Q_LABELS[qtype];
-  document.getElementById('map-q-text').textContent = qtext;
-  document.getElementById('map-q-sub').textContent = sub;
+  document.getElementById('map-q-type').textContent = mapCountry;
+  document.getElementById('map-q-text').textContent = q.q;
+  document.getElementById('map-q-sub').textContent = '';
   document.getElementById('map-feedback').style.display = 'none';
   document.getElementById('map-btn-next').style.display = 'none';
   mapDraw();
@@ -1782,6 +1827,120 @@ async function settingsAddCard(e) {
   } finally {
     btn.disabled = false;
   }
+}
+
+// ===================== TASTING NOTES =====================
+let tnNotes = [];
+let tnSelected = null;
+let tnInitialised = false;
+
+const TN_TYPE_COLOURS = { red: '#b05070', white: '#c9a84c', rosé: '#e8906a', sparkling: '#a0c0d0' };
+
+function initTasting() {
+  tnInitialised = true;
+  fetch('tasting_notes/index.json')
+    .then(r => r.json())
+    .then(notes => {
+      tnNotes = notes;
+      tnRenderList();
+      if (notes.length > 0) tnSelect(0);
+    })
+    .catch(() => {
+      document.getElementById('tn-content').innerHTML =
+        '<p class="tn-empty">Could not load tasting notes. Check that tasting_notes/index.json exists.</p>';
+    });
+}
+
+function tnRenderList() {
+  document.getElementById('tn-wine-list').innerHTML = tnNotes.map((n, i) => {
+    const dot = `<span class="tn-type-dot" style="background:${TN_TYPE_COLOURS[n.type] || '#888'}"></span>`;
+    return `<div class="tn-wine-item ${i === tnSelected ? 'active' : ''}" onclick="tnSelect(${i})">
+      <div class="tn-wine-name">${dot}${n.wine}</div>
+      <div class="tn-wine-meta">${n.vintage} &middot; ${n.region}</div>
+    </div>`;
+  }).join('');
+}
+
+function tnSelect(i) {
+  tnSelected = i;
+  tnRenderList();
+  tnRenderNote(tnNotes[i]);
+}
+
+function tnField(label, value) {
+  if (value == null) return '';
+  return `<div class="tn-field"><div class="tn-field-label">${label}</div><div class="tn-field-value">${value}</div></div>`;
+}
+
+function tnRenderNote(n) {
+  const typeColour = TN_TYPE_COLOURS[n.type] || '#888';
+  document.getElementById('tn-content').innerHTML = `
+    <div class="tn-wine-header">
+      <div class="tn-wine-title">${n.wine} ${n.vintage}</div>
+      <div class="tn-wine-subtitle">${n.producer}</div>
+      <div class="tn-meta-grid">
+        <div class="tn-meta-item"><div class="tn-meta-label">Country</div><div class="tn-meta-value">${n.country}</div></div>
+        <div class="tn-meta-item"><div class="tn-meta-label">Region</div><div class="tn-meta-value">${n.region}</div></div>
+        <div class="tn-meta-item"><div class="tn-meta-label">Grape(s)</div><div class="tn-meta-value">${n.grape}</div></div>
+        <div class="tn-meta-item"><div class="tn-meta-label">Type</div>
+          <div class="tn-meta-value"><span class="tn-type-dot" style="background:${typeColour}"></span>${n.type}</div></div>
+        <div class="tn-meta-item"><div class="tn-meta-label">Date tasted</div><div class="tn-meta-value">${n.date_tasted}</div></div>
+      </div>
+    </div>
+
+    <div class="tn-sat-section">
+      <div class="tn-sat-title">Appearance</div>
+      <div class="tn-fields-grid">
+        ${tnField('Clarity', n.appearance.clarity)}
+        ${tnField('Intensity', n.appearance.intensity)}
+        ${tnField('Colour', n.appearance.colour)}
+      </div>
+      ${n.appearance.other ? `<div class="tn-characteristics">${n.appearance.other}</div>` : ''}
+    </div>
+
+    <div class="tn-sat-section">
+      <div class="tn-sat-title">Nose</div>
+      <div class="tn-fields-grid">
+        ${tnField('Condition', n.nose.condition)}
+        ${tnField('Intensity', n.nose.intensity)}
+        ${tnField('Development', n.nose.development)}
+      </div>
+      <div class="tn-characteristics">${n.nose.characteristics}</div>
+    </div>
+
+    <div class="tn-sat-section">
+      <div class="tn-sat-title">Palate</div>
+      <div class="tn-fields-grid">
+        ${tnField('Sweetness', n.palate.sweetness)}
+        ${tnField('Acidity', n.palate.acidity)}
+        ${n.palate.tannin != null ? tnField('Tannin', n.palate.tannin) : ''}
+        ${tnField('Alcohol', n.palate.alcohol)}
+        ${tnField('Body', n.palate.body)}
+        ${n.palate.mousse != null ? tnField('Mousse', n.palate.mousse) : ''}
+        ${tnField('Flavour intensity', n.palate.flavour_intensity)}
+        ${tnField('Finish', n.palate.finish)}
+      </div>
+      <div class="tn-characteristics">${n.palate.flavour_characteristics}</div>
+    </div>
+
+    <div class="tn-sat-section">
+      <div class="tn-sat-title">Conclusions</div>
+      <div class="tn-fields-grid">
+        ${tnField('Quality', n.conclusions.quality)}
+        ${tnField('Readiness', n.conclusions.readiness)}
+      </div>
+      <div class="tn-fields-grid">
+        ${tnField('Grape assessment', n.conclusions.grape_assessment)}
+        ${tnField('Country / region', n.conclusions.country_region)}
+        ${tnField('Vintage', n.conclusions.vintage)}
+      </div>
+    </div>
+
+    ${n.notes ? `<div class="tn-sat-section">
+      <div class="tn-sat-title">Notes</div>
+      <div class="tn-notes-box">${n.notes}</div>
+    </div>` : ''}
+  `;
 }
 </script>
 

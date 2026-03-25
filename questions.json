@@ -1344,5 +1344,157 @@
         "exp": "The key rule with sweet wine pairing is that the wine should be at least as sweet as the dish. Pairing a Sauternes with a dry savoury dish works well (classic with foie gras or Roquefort); pairing it with a sweeter dessert than the wine makes the wine taste thin and acidic."
       }
     ]
+  },
+  "MAP_QUESTIONS": {
+    "France": [
+      {
+        "q": "Cabernet Sauvignon and Merlot dominate the blends of which Left and Right Bank region?",
+        "a": "Bordeaux"
+      },
+      {
+        "q": "Grand Cru vineyards planted exclusively with Chardonnay or Pinot Noir are found in which region?",
+        "a": "Burgundy"
+      },
+      {
+        "q": "Which region is the source of the world's most famous traditional method sparkling wine?",
+        "a": "Champagne"
+      },
+      {
+        "q": "Côte Rôtie and Hermitage, made from Syrah on steep granite terraces, are found in which region?",
+        "a": "Rhône Valley"
+      },
+      {
+        "q": "Riesling, Pinot Gris and Gewurztraminer are the signature grapes of which Alsatian region?",
+        "a": "Alsace"
+      },
+      {
+        "q": "Muscadet sur Lie, made from Melon Blanc near the Atlantic coast, comes from which region?",
+        "a": "Loire Valley"
+      },
+      {
+        "q": "Carbonic maceration and the Gamay grape define light, fruity reds from which region?",
+        "a": "Beaujolais"
+      },
+      {
+        "q": "Which region produces large volumes of Grenache, Syrah and Carignan under IGP classification?",
+        "a": "Southern France"
+      }
+    ],
+    "Italy": [
+      {
+        "q": "Barolo and Barbaresco, the \"King and Queen\" of Italian wine made from Nebbiolo, come from which region?",
+        "a": "Piemonte"
+      },
+      {
+        "q": "Amarone della Valpolicella, made using the appassimento drying technique, is produced in which region?",
+        "a": "Veneto"
+      },
+      {
+        "q": "Brunello di Montalcino and Chianti Classico DOCG wines are produced in which central Italian region?",
+        "a": "Tuscany"
+      },
+      {
+        "q": "Which region bordering Austria is known for aromatic, alpine-style Pinot Grigio?",
+        "a": "Alto Adige / Trentino"
+      },
+      {
+        "q": "Aglianico, Greco and Fiano are the signature grapes of which southern Italian region?",
+        "a": "Campania"
+      },
+      {
+        "q": "Primitivo and Negroamaro, producing rich, sun-baked reds, are the dominant grapes of which region?",
+        "a": "Puglia"
+      },
+      {
+        "q": "Nero d'Avola is the flagship red grape of which large Mediterranean island region?",
+        "a": "Sicily"
+      }
+    ],
+    "Spain": [
+      {
+        "q": "Tempranillo under Crianza, Reserva and Gran Reserva classification is most associated with which region?",
+        "a": "Rioja"
+      },
+      {
+        "q": "Which region on the Duero river rivals Rioja as Spain's other great Tempranillo-producing area?",
+        "a": "Ribera del Duero"
+      },
+      {
+        "q": "Old-vine Garnacha grown on black llicorella slate produces intense wines in which Catalan region?",
+        "a": "Priorat"
+      },
+      {
+        "q": "Albariño, producing fragrant Atlantic whites, is the signature grape of which Galician region?",
+        "a": "Rías Baixas"
+      },
+      {
+        "q": "Verdejo is the principal white grape of which Castilian DO region?",
+        "a": "Rueda"
+      },
+      {
+        "q": "Monastrell thrives in the hot, arid interior of which southeastern Spanish region?",
+        "a": "Jumilla / Levante"
+      },
+      {
+        "q": "Spain's traditional method sparkling wine, made from Macabeo, Xarel·lo and Parellada, comes from which region?",
+        "a": "Cava (Catalunya)"
+      }
+    ],
+    "Australia": [
+      {
+        "q": "Which valley is home to some of Australia's oldest Shiraz vines and produces the country's most powerful reds?",
+        "a": "Barossa Valley"
+      },
+      {
+        "q": "High-acidity Riesling built for long ageing is the speciality of which two adjacent South Australian valleys?",
+        "a": "Clare / Eden Valley"
+      },
+      {
+        "q": "Which South Australian region, close to the coast, is known for Shiraz and Grenache on ancient soils?",
+        "a": "McLaren Vale"
+      },
+      {
+        "q": "Terra rossa soil over free-draining limestone is the hallmark of which region, famous for elegant Cabernet Sauvignon?",
+        "a": "Coonawarra"
+      },
+      {
+        "q": "Which cool Victorian valley produces Pinot Noir and Chardonnay compared in style to Burgundy?",
+        "a": "Yarra Valley"
+      },
+      {
+        "q": "An isolated position in Western Australia gives which region its reputation for pure Cabernet Sauvignon and Chardonnay?",
+        "a": "Margaret River"
+      },
+      {
+        "q": "Low-alcohol, unoaked Semillon that develops toasty complexity with bottle age is the signature of which valley?",
+        "a": "Hunter Valley"
+      },
+      {
+        "q": "Which island state's cool maritime climate makes it suited to Pinot Noir, Chardonnay and Riesling?",
+        "a": "Tasmania"
+      }
+    ],
+    "New Zealand": [
+      {
+        "q": "Which region at the top of New Zealand's South Island put Sauvignon Blanc on the world map?",
+        "a": "Marlborough"
+      },
+      {
+        "q": "Intense Pinot Noir from one of the world's most southerly wine regions comes from which valley?",
+        "a": "Central Otago"
+      },
+      {
+        "q": "Cabernet Sauvignon, Merlot and Syrah ripen in the warm climate of which North Island bay?",
+        "a": "Hawke's Bay"
+      },
+      {
+        "q": "Which small Wairarapa region is known for elegant, Burgundian-style Pinot Noir?",
+        "a": "Martinborough"
+      },
+      {
+        "q": "Chardonnay, Sauvignon Blanc and Pinot Noir are produced in which region at the northern tip of the South Island?",
+        "a": "Nelson"
+      }
+    ]
   }
 }
