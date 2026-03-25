@@ -1496,5 +1496,35 @@
         "a": "Nelson"
       }
     ]
+  },
+  "SA_SECTIONS": {
+    "Viticulture": [
+      {
+        "q": "Describe the key climatic factors that influence grape ripening in a wine region.",
+        "a": "Temperature, sunshine hours, rainfall, humidity and wind all influence ripening. Warm temperatures and long sunshine hours help grapes accumulate sugar, while cool nights preserve acidity. Excessive rainfall can cause dilution and disease pressure.",
+        "keywords": ["temperature", "sunshine", "rainfall", "acidity", "ripening"]
+      }
+    ],
+    "Winemaking": [
+      {
+        "q": "Explain the purpose of malolactic conversion and its effect on wine style.",
+        "a": "Malolactic conversion (MLF) is a bacterial process that converts sharp malic acid into softer lactic acid, reducing acidity and adding a creamy, buttery texture. It is commonly used in full-bodied white wines such as Chardonnay and in most red wines.",
+        "keywords": ["malolactic", "malic", "lactic", "acidity", "buttery", "bacteria"]
+      }
+    ],
+    "Key Wines": [
+      {
+        "q": "What are the main grape varieties and style characteristics of red Bordeaux?",
+        "a": "Red Bordeaux is dominated by Cabernet Sauvignon on the left bank and Merlot on the right bank, with Cabernet Franc as a key blending component. Wines are typically full-bodied with high tannins, blackcurrant and cedar flavours, and significant ageing potential.",
+        "keywords": ["cabernet sauvignon", "merlot", "cabernet franc", "tannins", "bordeaux", "blending"]
+      }
+    ],
+    "Service": [
+      {
+        "q": "At what temperature should a full-bodied red wine be served, and why?",
+        "a": "Full-bodied red wines should be served at around 16–18°C. Serving too warm makes alcohol more pronounced and the wine flabby, while serving too cold can make tannins seem harsher and suppress fruity aromas.",
+        "keywords": ["temperature", "tannins", "alcohol", "aromas", "red"]
+      }
+    ]
   }
 }
