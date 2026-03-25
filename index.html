@@ -864,13 +864,18 @@
       </div>
     </div>
 
+    <div class="chip-row" style="margin-bottom:6px">
+      <button class="chip on" id="map-mode-easy"   onclick="mapSetMode('easy')">Easy</button>
+      <button class="chip"    id="map-mode-medium" onclick="mapSetMode('medium')">Medium</button>
+      <button class="chip"    id="map-mode-hard"   onclick="mapSetMode('hard')">Hard</button>
+    </div>
     <div class="chip-row" id="map-tabs"></div>
     <div class="progress-bar"><div class="progress-fill" id="map-prog" style="width:0%"></div></div>
 
     <div class="map-legend">
       <div class="legend-item"><div class="legend-dot" style="background:#4a9e72"></div>Correct</div>
       <div class="legend-item"><div class="legend-dot" style="background:#c0513a"></div>Missed</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#4a7fa8"></div>Target region</div>
+      <div class="legend-item" id="map-legend-target"><div class="legend-dot" style="background:#4a7fa8"></div>Target region</div>
       <div class="legend-item"><div class="legend-dot" style="background:#3a3020"></div>Unvisited</div>
     </div>
 
@@ -1222,6 +1227,7 @@ const COLORS = {
 };
 
 let mapInitialised = false;
+let mapMode = 'easy';
 let mapCountry = 'France';
 let mapStatus = {};
 let mapCurrent = null;
@@ -1233,6 +1239,7 @@ let regionLayers = {};
 function initMap() {
   mapInitialised = true;
   buildMapTabs();
+  buildMapModeTabs();
 
   if (!document.getElementById('leaflet-css')) {
     const link = document.createElement('link');
@@ -1278,6 +1285,20 @@ function buildMapTabs() {
   ).join('');
 }
 
+function buildMapModeTabs() {
+  ['easy','medium','hard'].forEach(m => {
+    document.getElementById('map-mode-' + m).classList.toggle('on', m === mapMode);
+  });
+  document.getElementById('map-legend-target').style.display = mapMode === 'easy' ? '' : 'none';
+}
+
+function mapSetMode(mode) {
+  mapMode = mode;
+  mapStatus = {};
+  buildMapModeTabs();
+  if (leafletMap) mapGenQ();
+}
+
 function mapSwitch(c) {
   mapCountry = c;
   mapStatus = {};
@@ -1302,18 +1323,15 @@ function mapDraw() {
   // Draw each region polygon immediately
   mapGetRegions().forEach(r => {
     const st = mapStatus[r.id] || 'default';
-    const isTarget = mapCurrent && mapCurrent.targetId === r.id && !mapAnswered;
+    const isTarget = mapMode === 'easy' && mapCurrent && mapCurrent.targetId === r.id && !mapAnswered;
     const styleKey = isTarget ? 'target' : st;
     const style = { ...COLORS[styleKey], interactive: true, className: 'wine-region' };
 
     const poly = L.polygon(r.coords, style).addTo(leafletMap);
 
-    poly.bindTooltip(r.label, {
-      permanent: true,
-      direction: 'center',
-      className: 'region-label',
-      offset: [0, 0]
-    });
+    if (mapMode !== 'hard') {
+      poly.bindTooltip(r.label, { permanent: true, direction: 'center', className: 'region-label', offset: [0, 0] });
+    }
 
     poly.on('click', () => mapClick(r.id));
     poly.on('mouseover', function() {
@@ -1321,7 +1339,7 @@ function mapDraw() {
     });
     poly.on('mouseout', function() {
       const s2 = mapStatus[r.id] || 'default';
-      const it = mapCurrent && mapCurrent.targetId === r.id && !mapAnswered;
+      const it = mapMode === 'easy' && mapCurrent && mapCurrent.targetId === r.id && !mapAnswered;
       this.setStyle(it ? COLORS.target : COLORS[s2]);
     });
 
@@ -1334,6 +1352,7 @@ function mapDraw() {
 }
 
 function mapGenQ() {
+  mapStatus = {};
   const regions = mapGetRegions();
   const r = regions[Math.floor(Math.random()*regions.length)];
   const qtype = Q_TYPES[Math.floor(Math.random()*Q_TYPES.length)];
