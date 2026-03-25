@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WSET L3 Study App</title>
+<title>WSET L3 Study Helper</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -693,17 +693,17 @@
 <!-- HOME -->
 <div class="page active" id="page-home">
   <div class="home-hero">
-    <div class="home-eyebrow">WSET Level 3 Award in Wines</div>
+    <div class="home-eyebrow">WSET Level 3 Study Helper</div>
     <h1 class="home-h1">Study smarter,<br><em>taste better</em></h1>
-    <p class="home-sub">Three interactive tools to get you exam-ready — AI-powered flashcards, a global wine regions map game, and a multi-choice quiz covering every section of the specification.</p>
+    <p class="home-sub">Three interactive tools to get you exam-ready — Flashcards, a global wine regions map game, and a multi-choice quiz covering every section of the specification.</p>
   </div>
   <div class="home-cards">
     <div class="home-card" onclick="showPage('flashcards')">
       <div class="home-card-icon">
         <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><line x1="7" y1="9" x2="17" y2="9"/><line x1="7" y1="13" x2="13" y2="13"/></svg>
       </div>
-      <h3>AI Flashcards</h3>
-      <p>Drill viticulture, winemaking, sparkling, fortified, wine law and SAT tasting — with AI explanations on demand.</p>
+      <h3>Flashcards</h3>
+      <p>Drill viticulture, winemaking, sparkling, fortified, wine law and SAT tasting</p>
       <div class="home-card-arrow">Start studying →</div>
     </div>
     <div class="home-card" onclick="showPage('map')">
@@ -731,7 +731,7 @@
     <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:1.25rem">
       <div class="page-header" style="margin-bottom:0">
         <div class="page-eyebrow">Unit 1 &amp; 2</div>
-        <div class="page-title">AI Flashcards</div>
+        <div class="page-title">Flashcards</div>
       </div>
       <div class="metrics-row">
         <div class="metric"><div class="metric-val" id="fc-correct">0</div><div class="metric-lbl">Correct</div></div>
@@ -762,12 +762,12 @@
     <div class="action-row" id="fc-actions" style="display:none">
       <button class="btn btn-danger" onclick="fcMark(false)">Missed it — review again</button>
       <button class="btn btn-success" onclick="fcMark(true)">Got it</button>
-      <button class="btn btn-gold" onclick="fcAskAI()">Explain this in more depth</button>
+      <!-- <button class="btn btn-gold" onclick="fcAskAI()">Explain this in more depth</button> -->
     </div>
 
     <div class="ai-box" id="fc-ai-box" style="display:none">
-      <div class="ai-box-label">AI explanation</div>
-      <div class="ai-text" id="fc-ai-text"></div>
+      <!-- <div class="ai-box-label">Explanation</div>
+      <div class="ai-text" id="fc-ai-text"></div> -->
     </div>
   </div>
 </div>
@@ -1063,39 +1063,6 @@ function fcShowEnd() {
     fcSetTopic(fcTopic);
   };
   aiBox.appendChild(btn);
-}
-
-async function fcAskAI() {
-  if(fcAiLoading || !fcCurrent) return;
-  fcAiLoading = true;
-  const box = document.getElementById('fc-ai-box');
-  const txt = document.getElementById('fc-ai-text');
-  box.style.display = 'block';
-  box.querySelector('.ai-box-label').textContent = 'AI explanation';
-  txt.innerHTML = '<div class="loading-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
-  const prompt = `You are a concise WSET Level 3 wine tutor. The student just saw this flashcard:
-
-Question: ${fcCurrent.q}
-Answer: ${fcCurrent.a}
-
-Give a deeper explanation in 3–5 sentences. Focus on the why behind the answer, add a memorable example or analogy, and mention one related exam tip. Keep it practical and exam-focused. No bullet points.`;
-
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        messages: [{role:'user', content: prompt}]
-      })
-    });
-    const data = await res.json();
-    txt.textContent = data.content?.[0]?.text || 'Unable to load explanation.';
-  } catch(e) {
-    txt.textContent = 'Could not load AI explanation. Check your connection.';
-  }
-  fcAiLoading = false;
 }
 
 // ===================== MAP GAME — LEAFLET =====================
