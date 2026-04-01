@@ -729,5 +729,263 @@
     },
     "notes": null,
     "tech_sheet": null
+  },
+  {
+    "id": "macon-villages-chameroy-louis-latour-2024",
+    "wine": "Mâcon-Villages Chameroy",
+    "producer": "Louis Latour",
+    "vintage": "2024",
+    "country": "France",
+    "region": "Mâconnais, Burgundy",
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Ripe apple, rockmelon, lemon, lemon pith, blossom, flint, marmalade, vegetal, toast/white pepper, honey."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Ripe yellow apple, ripe pear, lemon pith, grapefruit, melon.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Can drink now, potential to age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.louislatour.com/pdf/en/macon-villages-chameroy-2024-3197.pdf"
+  },
+  {
+    "id": "chablis-pascal-bouchard-2023",
+    "wine": "Chablis",
+    "producer": "Pascal Bouchard",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Chablis, Burgundy",
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Youthful",
+      "characteristics": "Salty/sea air, lemon, lemon pith, honey blossom, green apple, unripe peach, river stone."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Yellow apple, white peach, pith, lemon.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Can drink now, potential to age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.pascalbouchard.com/en/wines/chablis-le-classique/"
+  },
+  {
+    "id": "meursault-ponsot-2020",
+    "wine": "Meursault",
+    "producer": "Laurent Ponsot",
+    "vintage": "2020",
+    "country": "France",
+    "region": "Côte de Beaune, Burgundy",
+    "grape": "Chardonnay 100%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Butter, popcorn, honey, almond/marzipan, apricot, vanilla yoghurt, lemon, lemon peel, citrus peel, marmalade, stewed pear."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": "Stewed pear, marzipan, toast, peach, pith, grapefruit.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Outstanding",
+      "readiness": "Drink now, potential to age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "sancerre-laporte-2021",
+    "wine": "Sancerre",
+    "producer": "Domaine Laporte",
+    "vintage": "2021",
+    "country": "France",
+    "region": "Sancerre, Loire Valley",
+    "grape": "Sauvignon Blanc 100%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Capsicum, pyrazines, vegetal, grass, lime, litterbox, hay, asparagus, white peach, cheese, soil, ginger."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": "Lemon, capsicum, vegetal, unripe guava, gooseberry, lemongrass, white pepper, wet stone.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.laporte-sancerre.com/en/"
+  },
+  {
+    "id": "vouvray-sec-val-de-sec-champalou-2023",
+    "wine": "Vouvray Sec — Val de Sec",
+    "producer": "Domaine Champalou",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Vouvray, Loire Valley",
+    "grape": "Chenin Blanc 100%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Honey, lemon, marmalade, cooked apple, apple rings, quince paste, peach tea, ginger."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Lemon, apple, filtered apple juice, honey, light brewed tea, peach ice tea.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, can age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://kermitlynch.com/files/champalou.pdf"
+  },
+  {
+    "id": "barsac-chateau-coutet-2019",
+    "wine": "Barsac",
+    "producer": "Château Coutet",
+    "vintage": "2019",
+    "country": "France",
+    "region": "Barsac, Bordeaux",
+    "grape": "Sémillon 75%, Sauvignon Blanc 23%, Muscadelle 2%",
+    "type": "white",
+    "date_tasted": "2026-03-31",
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Gold",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Marmalade, apricot, honey, marzipan, cashew, green grapes, camomile, ripe peach, blossom, sultana, nashi, candied peel."
+    },
+    "palate": {
+      "sweetness": "Sweet",
+      "acidity": "High",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Full",
+      "mousse": null,
+      "flavour_intensity": "Pronounced",
+      "flavour_characteristics": "Marzipan, apricot, cashew, honey, green apple, lemon peel.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Can drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.chateaucoutet.com/en/the-wines/chateau-coutet/"
   }
 ]
