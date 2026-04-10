@@ -997,7 +997,7 @@
     "region": "Saumur, Loire Valley",
     "grape": "Cabernet Franc 100%",
     "type": "red",
-    "date_tasted": null,
+    "date_tasted": "2026-04-07",
     "appearance": {
       "clarity": "Clear",
       "intensity": "Medium",
@@ -1040,7 +1040,7 @@
     "region": "Bordeaux Supérieur",
     "grape": "Merlot / Cabernet Sauvignon blend",
     "type": "red",
-    "date_tasted": null,
+    "date_tasted": "2026-04-07",
     "appearance": {
       "clarity": "Clear",
       "intensity": "Deep",
@@ -1083,7 +1083,7 @@
     "region": "Haut-Médoc, Bordeaux",
     "grape": "Cabernet Sauvignon 56%, Merlot 44%",
     "type": "red",
-    "date_tasted": null,
+    "date_tasted": "2026-04-07",
     "appearance": {
       "clarity": "Clear",
       "intensity": "Deep",
@@ -1126,7 +1126,7 @@
     "region": "Saint-Émilion, Bordeaux",
     "grape": "Merlot 80%, Cabernet Franc 20%",
     "type": "red",
-    "date_tasted": null,
+    "date_tasted": "2026-04-07",
     "appearance": {
       "clarity": "Clear",
       "intensity": "Medium",
@@ -1169,7 +1169,7 @@
     "region": "Cahors, South West France",
     "grape": "Malbec 95%, Merlot 5%",
     "type": "red",
-    "date_tasted": null,
+    "date_tasted": "2026-04-07",
     "appearance": {
       "clarity": "Clear",
       "intensity": "Deep",
