@@ -987,5 +987,220 @@
     },
     "notes": null,
     "tech_sheet": "https://www.chateaucoutet.com/en/the-wines/chateau-coutet/"
+  },
+    {
+    "id": "cabernet-franc-guiberteau-les-moulins-2023",
+    "wine": "Saumur Rouge — Les Moulins",
+    "producer": "Domaine Guiberteau",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Saumur, Loire Valley",
+    "grape": "Cabernet Franc 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Black currant, plum, red currant, toast, violet, ripe capsicum, thyme, baking spice, dried leaf."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium",
+      "alcohol": "Medium",
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Red currant, black currant, strawberry, cranberry, white pepper, light baking spice.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.saratogawine.com/product/domaine-guiberteau-saumur-rouge-les-moulins-2023-750ml/"
+  },
+  {
+    "id": "bordeaux-belair-de-lorme-2020",
+    "wine": "Bordeaux Supérieur",
+    "producer": "Château Bel Air de l'Orme",
+    "vintage": "2020",
+    "country": "France",
+    "region": "Bordeaux Supérieur",
+    "grape": "Merlot / Cabernet Sauvignon blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": "Sediment present"
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Iodine, black currant/cassis, cedar dust, leather, dried rose, graphite, soy sauce."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium+",
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Red currant, blackberry, graphite, soy sauce.",
+      "finish": "Medium-"
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "haut-medoc-haut-madrac-2019",
+    "wine": "Haut-Médoc Cru Bourgeois",
+    "producer": "Château Haut-Madrac",
+    "vintage": "2019",
+    "country": "France",
+    "region": "Haut-Médoc, Bordeaux",
+    "grape": "Cabernet Sauvignon 60%, Merlot 35%, Petit Verdot 5%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Iodine, formaldehyde, pencils, dusty cedar, violets, dry blackberry, liquorice."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium+",
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Blackberry, cherry, cedar/pencil, graphite, iodine, violet.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.borie-manoux.com/wines/chateau-haut-madrac-2/"
+  },
+  {
+    "id": "saint-emilion-teyssier-2021",
+    "wine": "Saint-Émilion Grand Cru",
+    "producer": "Château Teyssier",
+    "vintage": "2021",
+    "country": "France",
+    "region": "Saint-Émilion, Bordeaux",
+    "grape": "Merlot 80%, Cabernet Franc 20%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Vanilla, dusty cedar, violet, dried rose, dill, nutmeg, dried capsicum, ripe red currant, dried cherry, gravel/river stone."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Cherries, kirsch, graphite, bay, river stone, rose, dill, clove, dry currants.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://vins-saint-emilion.com/en/chateau-pdf/7134/"
+  },
+  {
+    "id": "malbec-cedre-heritage-2020",
+    "wine": "Cahors — Cèdre Héritage",
+    "producer": "Château du Cèdre",
+    "vintage": "2020",
+    "country": "France",
+    "region": "Cahors, South West France",
+    "grape": "Malbec 95%, Merlot 5%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Dry hay, violet, chocolate, cedar dust, dark cherry, ripe plum, nutmeg."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium+",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Preserved fig, fig jam, fruit toast, nutmeg, chocolate, cherry, violet, blueberry, tea.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.chateauducedre.com/en/cuvee/cedre-heritage-2"
   }
 ]
