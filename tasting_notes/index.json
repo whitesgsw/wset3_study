@@ -1202,5 +1202,865 @@
     },
     "notes": null,
     "tech_sheet": "https://www.chateauducedre.com/en/cuvee/cedre-heritage-2"
+  },
+  {
+    "id": "bourgogne-rouge-prosper-maufoux-2023",
+    "wine": "Bourgogne Rouge",
+    "producer": "Prosper Maufoux",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Burgundy",
+    "grape": "Pinot Noir 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium-",
+      "development": "Youthful",
+      "characteristics": "Sour cherry, raspberry jam, black tea, damp leaves, tobacco."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium-",
+      "alcohol": null,
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Light",
+      "flavour_characteristics": "Strawberry, sage, tea, cranberry.",
+      "finish": "Short"
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for further aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "corton-clos-du-roi-grand-cru-louis-latour-2018",
+    "wine": "Corton Grand Cru — Clos du Roi",
+    "producer": "Louis Latour",
+    "vintage": "2018",
+    "country": "France",
+    "region": "Corton, Burgundy",
+    "grape": "Pinot Noir 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Ripe strawberry, raspberry, plum, clove, nutmeg, vanilla, blueberries, blossom, forest floor."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium",
+      "alcohol": "High",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Cranberry, ripe strawberry, white pepper, clove, black cherry, sultana, prune.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://www.louislatour.com/pdf/en/corton-grand-cru-clos-du-roi-2016-2068.pdf"
+  },
+  {
+    "id": "chiroubles-frederic-berne-les-terrasses-2020",
+    "wine": "Chiroubles — Les Terrasses",
+    "producer": "Frédéric Berne",
+    "vintage": "2020",
+    "country": "France",
+    "region": "Chiroubles, Beaujolais",
+    "grape": "Gamay 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Hay, brett/barn/horse, iodine, confection/red liquorice, white pepper, cherry, menthol, tea leaf, river stone, clove, bubblegum."
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": "Medium+",
+      "tannin": "Medium+",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Tea, cherry, vegetal, red liquorice, white pepper, clove.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "condrieu-alexandrins-2023",
+    "wine": "Condrieu",
+    "producer": "Maison Les Alexandrins",
+    "vintage": "2023",
+    "country": "France",
+    "region": "Condrieu, Northern Rhône",
+    "grape": "Viognier 100%",
+    "type": "white",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Chamomile, elderflower, apricot, white peach, nectarine, blossom, lemon peel, honey, pineapple."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium-",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Lemon peel, honey, apricot, blossom, white peach, chamomile, apple.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Outstanding",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": "https://m.lesalexandrins.com/X12TRE/get/tech-sheet"
+  },
+  {
+    "id": "cote-rotie-bonnefond-2021",
+    "wine": "Côte-Rôtie",
+    "producer": "Patrick & Christophe Bonnefond",
+    "vintage": "2021",
+    "country": "France",
+    "region": "Côte-Rôtie, Northern Rhône",
+    "grape": "Syrah 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Bacon, olive, plum, blueberry, pepper, sawdust, violet."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium",
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Cranberry, blueberry, plum, cherry.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "cotes-du-rhone-jaboulet-2022",
+    "wine": "Côtes du Rhône",
+    "producer": "Paul Jaboulet Aîné",
+    "vintage": "2022",
+    "country": "France",
+    "region": "Côtes du Rhône, Rhône Valley",
+    "grape": "Grenache / Syrah blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Cherries, strawberry jam, spice, cooked rhubarb, prune."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium-",
+      "alcohol": "High",
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Medium-",
+      "flavour_characteristics": "Cranberry, rhubarb, unripe cherry, prune.",
+      "finish": "Medium-"
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "chateauneuf-du-pape-clos-caldairn-2022",
+    "wine": "Châteauneuf-du-Pape",
+    "producer": "Clos de Caldairn",
+    "vintage": "2022",
+    "country": "France",
+    "region": "Châteauneuf-du-Pape, Rhône Valley",
+    "grape": "Grenache blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Bandaid, iodine, ripe plum, blackberry, selene, salami, meatiness, bay leaf."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium",
+      "alcohol": "High",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Iodine, meatiness/bacon, barnyard, cocoa, bay leaf, dusty.",
+      "finish": "Medium-"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "minervois-gerard-bertrand-2022",
+    "wine": "Minervois",
+    "producer": "Gérard Bertrand",
+    "vintage": "2022",
+    "country": "France",
+    "region": "Minervois, Languedoc",
+    "grape": "Syrah / Grenache / Mourvèdre blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Bay leaf, ripe plum, blackcurrant, nutmeg, blackberry, pepper, savoury."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium",
+      "tannin": "Medium",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Black currant, blackberry, ripe plum, prune, baking spice, pepper.",
+      "finish": null
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "priorat-legitram-muller-2019",
+    "wine": "Priorat",
+    "producer": "Legrítam de Müller",
+    "vintage": "2019",
+    "country": "Spain",
+    "region": "Priorat, Catalonia",
+    "grape": "Garnacha / Cariñena blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Chocolate, cherry, ripe cherry, baking spice, coconut, bay leaf, savouriness, vegetal, tomato leaf."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium+",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Savoury, olive, rosemary, gravel, sage, bay leaf, dried coconut.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential to age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "albarino-serra-estiella-2022",
+    "wine": "Albariño",
+    "producer": "Serra del Estiella",
+    "vintage": "2022",
+    "country": "Spain",
+    "region": "Rías Baixas, Galicia",
+    "grape": "Albariño 100%",
+    "type": "white",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Lemon, green apple, unripe apricot, sea spray, cream, toast, vegetal, straw, ginger."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Lemon, apple, straw, ginger, sea spray/saline, oyster shell, spice.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "rioja-reserva-imperial-cvne-2019",
+    "wine": "Rioja Reserva — Imperial",
+    "producer": "CVNE",
+    "vintage": "2019",
+    "country": "Spain",
+    "region": "Rioja",
+    "grape": "Tempranillo blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Pronounced",
+      "development": "Developing",
+      "characteristics": "Blackberry, cooked plum, baking spice, blackberry jam, cedar dust, desiccated coconut, dried fig, aniseed."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Medium+",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Dried fig, prune, ripe plum, vanilla, coconut, nutmeg, bay leaf, blackberry jam, dried cranberry.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "ribera-del-duero-prusas-interpretacion-2020",
+    "wine": "Ribera del Duero — Prusas Interpretación",
+    "producer": "Prusas",
+    "vintage": "2020",
+    "country": "Spain",
+    "region": "Ribera del Duero",
+    "grape": "Tempranillo (Tinto Fino) 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Tea, red currant, fresh blackberry, dried cranberry, plum, sage, rosemary."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium+",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Plum, ripe fig, baking spice, dried currants, black currant, black tea.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, potential for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "barolo-cannubi-tenuta-carretta-2016",
+    "wine": "Barolo Cannubi",
+    "producer": "Tenuta Carretta",
+    "vintage": "2016",
+    "country": "Italy",
+    "region": "Barolo, Piemonte",
+    "grape": "Nebbiolo 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Garnet",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Red cherry, red currant, oregano, thyme, iodine/saline, clove, tar, petrichor, cedar dust, tobacco."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "High",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Red currant, iodine, savoury/game, leather, tar, sour cherry, cranberry.",
+      "finish": "Medium+"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "pinot-grigio-franz-haas-2024",
+    "wine": "Pinot Grigio",
+    "producer": "Franz Haas",
+    "vintage": "2024",
+    "country": "Italy",
+    "region": "Alto Adige",
+    "grape": "Pinot Grigio 100%",
+    "type": "white",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Gold",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium+",
+      "development": "Youthful",
+      "characteristics": "Grape, peach, lemon, generic tropical fruit."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Lemon oil, lemon pith, green apple, generic tropical fruit.",
+      "finish": "Medium-"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "soave-classico-alzari-coffele-2022",
+    "wine": "Soave Classico — Alzari",
+    "producer": "Coffele",
+    "vintage": "2022",
+    "country": "Italy",
+    "region": "Soave Classico, Veneto",
+    "grape": "Garganega blend",
+    "type": "white",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Lemon",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Blossom, honey, ripe melon, kerosene, sultana, quince paste, cashew, nectarine."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": null,
+      "alcohol": "Medium",
+      "body": "Medium",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Saline, cashew, sultana, melon, blossom, honey, kerosene.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "valpolicella-coffele-2024",
+    "wine": "Valpolicella",
+    "producer": "Coffele",
+    "vintage": "2024",
+    "country": "Italy",
+    "region": "Valpolicella, Veneto",
+    "grape": "Corvina / Rondinella blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium-",
+      "development": "Developing",
+      "characteristics": "Ripe strawberry, confectionery, red liquorice, strawberry jam, red currants, cranberries."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "Low",
+      "alcohol": "Medium",
+      "body": "Light",
+      "mousse": null,
+      "flavour_intensity": "Medium",
+      "flavour_characteristics": "Cranberry, strawberry, red cherry, white pepper.",
+      "finish": null
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "amarone-musella-2016",
+    "wine": "Amarone della Valpolicella",
+    "producer": "Musella",
+    "vintage": "2016",
+    "country": "Italy",
+    "region": "Valpolicella, Veneto",
+    "grape": "Corvina / Rondinella / Molinara blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Unclean",
+      "intensity": "Medium",
+      "colour": "Garnet",
+      "other": "Sediment present"
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Fully developed",
+      "characteristics": null
+    },
+    "palate": {
+      "sweetness": null,
+      "acidity": null,
+      "tannin": null,
+      "alcohol": null,
+      "body": null,
+      "mousse": null,
+      "flavour_intensity": null,
+      "flavour_characteristics": null,
+      "finish": null
+    },
+    "conclusions": {
+      "quality": null,
+      "readiness": null,
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": "Note is incomplete — only appearance and partial nose recorded. Condition noted as unclean.",
+    "tech_sheet": null
+  },
+  {
+    "id": "chianti-castellina-2024",
+    "wine": "Chianti",
+    "producer": "Castellina",
+    "vintage": "2024",
+    "country": "Italy",
+    "region": "Chianti, Tuscany",
+    "grape": "Sangiovese blend",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Pale",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium",
+      "development": "Developing",
+      "characteristics": "Cranberry, confectionery, raspberry, simple red fruit, gravel, dried herb."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium+",
+      "tannin": "Medium",
+      "alcohol": null,
+      "body": "Medium-",
+      "mousse": null,
+      "flavour_intensity": "Light",
+      "flavour_characteristics": "Cranberry, pepper, unripe strawberry, gravel/river stone, dried herb.",
+      "finish": "Short"
+    },
+    "conclusions": {
+      "quality": "Acceptable",
+      "readiness": "Drink now, not suitable for aging",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "chianti-classico-badia-passignano-2020",
+    "wine": "Chianti Classico Gran Selezione — Badia a Passignano",
+    "producer": "Antinori",
+    "vintage": "2020",
+    "country": "Italy",
+    "region": "Chianti Classico, Tuscany",
+    "grape": "Sangiovese 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Medium",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": null,
+      "intensity": "Medium+",
+      "development": "Developing",
+      "characteristics": "Iron, ripe strawberry, strawberry jam, vegetal, iodine, baking spice, vanilla, tomato leaf, fennel seed."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "High",
+      "tannin": "High",
+      "alcohol": "High",
+      "body": "Medium+",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Iron, ripe strawberry, ripe black cherry, iodine, vanilla, violet, fennel seed.",
+      "finish": "Long"
+    },
+    "conclusions": {
+      "quality": "Very good",
+      "readiness": "Drink now, can age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
+  },
+  {
+    "id": "primitivo-masseria-antico-2023",
+    "wine": "Primitivo",
+    "producer": "Masseria Antico",
+    "vintage": "2023",
+    "country": "Italy",
+    "region": "Puglia",
+    "grape": "Primitivo 100%",
+    "type": "red",
+    "date_tasted": null,
+    "appearance": {
+      "clarity": "Clear",
+      "intensity": "Deep",
+      "colour": "Ruby",
+      "other": null
+    },
+    "nose": {
+      "condition": "Clean",
+      "intensity": "Medium",
+      "development": null,
+      "characteristics": "Cedar dust, blackberry, vegetal/tomato leaf, black tea, dried fig, savoury/meatiness."
+    },
+    "palate": {
+      "sweetness": "Dry",
+      "acidity": "Medium",
+      "tannin": "Medium",
+      "alcohol": "High",
+      "body": "Full",
+      "mousse": null,
+      "flavour_intensity": "Medium+",
+      "flavour_characteristics": "Ripe blackberry, jamminess, black tea, strawberry jam, savoury/meaty.",
+      "finish": "Medium"
+    },
+    "conclusions": {
+      "quality": "Good",
+      "readiness": "Drink now, can age",
+      "grape_assessment": null,
+      "country_region": null,
+      "vintage": null
+    },
+    "notes": null,
+    "tech_sheet": null
   }
 ]
